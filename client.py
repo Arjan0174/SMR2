@@ -15,6 +15,7 @@ def client_program():
             client_socket.send(message.encode(FORMAT))                          # send message
             message = input("What would u like to send to the robot? -> ")      # again take input
     client_socket.close()                                                       # close the connection
+#hooooi
 
 
 client_program()
